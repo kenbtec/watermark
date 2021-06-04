@@ -3,7 +3,7 @@
 
     function a(e, i) { this.element = e, this.settings = t.extend({}, r, i), this._defaults = r, this._name = n, this.init() }
     var n = "watermark",
-        r = { path: "watermark.png", text: "", textWidth: 130, textSize: 13, textColor: "white", textBg: "rgba(0, 0, 0, 0.4)", gravity: "se", opacity: 10, margin: 10, outputWidth: "auto", outputHeight: "auto", outputType: "jpeg", done: function(t) { this.src = t }, fail: function() {}, always: function() {} };
+        r = { path: "watermark.png", text: "", textWidth: 200, textSize: 20, textColor: "white", textBg: "rgba(0, 0, 0, 0.4)", gravity: "se", opacity: 10, margin: 10, outputWidth: "auto", outputHeight: "auto", outputType: "jpeg", done: function(t) { this.src = t }, fail: function() {}, always: function() {} };
     t.extend(a.prototype, {
         init: function() {
             var e = this,
